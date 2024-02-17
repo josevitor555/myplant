@@ -1,6 +1,12 @@
 :root {
 
+    --background-progressbar: #29e95f;
+
     /*Header Variables*/
     --background-body: #FAFAFA;
-    --background-progressbar: #12372A;
+    --color-nav-items: #ffffff;
+    --background-header: transparent;
+
+    /*Banner variables*/
+    --color-text-banner: #FAFAFA;
 }
