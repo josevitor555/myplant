@@ -109,12 +109,14 @@ section {
 .main-home {
     width: 100%;
     height: 100vh;
-    background-image: url("../../assets/image/plant-banner.jpg");
+    background-image: url("../../assets/image/banner-myplant.png");
     background-position: center;
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .main-home .main-text {
     color: var(--color-text-banner);
@@ -124,7 +126,7 @@ section {
 }
 .main-home .main-text h1 {
     color: var(--color-text-banner);
-    font-size: 65px;
+    font-size: 55px;
     text-transform: capitalize;
     line-height: 1.1;
     font-weight: 600;
@@ -149,7 +151,7 @@ section {
 }
 .main-home .main-btn:hover {
     background: var(--color-text-banner);
-    color: #111;
+    color: #FFFFFF;
 }
 .main-home .down-arrow {
     position: absolute;
@@ -165,7 +167,7 @@ section {
 }
 .main-home .down-arrow i:hover {
     background: var(--color-text-banner);
-    color: #111;
+    color: #FFFFFF;
     transition: all .42s ease;
 }
 body {
