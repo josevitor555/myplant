@@ -151,6 +151,23 @@ section {
     background: var(--color-text-banner);
     color: #111;
 }
+.main-home .down-arrow {
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+.main-home .down-arrow i {
+    font-size: 30px;
+    color: var(--color-text-banner);
+    border: 2px solid var(--color-text-banner);
+    border-radius: 50%;
+    padding: 12px 12px;
+}
+.main-home .down-arrow i:hover {
+    background: var(--color-text-banner);
+    color: #111;
+    transition: all .42s ease;
+}
 body {
     background: var(--background-body);
     height: 300vh;
