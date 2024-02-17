@@ -3,7 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 0;
+}
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    border-radius: 8px;
+    background: var(--background-progressbar);
+    z-index: 1;
+}
 body {
     background: var(--background-body);
-    height: auto;
+    height: 200vh;
 }
