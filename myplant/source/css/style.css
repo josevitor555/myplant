@@ -28,10 +28,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1px 5%;
-    /* background: var(--background-header); */
-    background: rgba( 255, 255, 255, 0 );
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 10px );
+    background: var(--background-header);
+    z-index: 1;
 }
 header .logo img {
     max-width: 220px;
