@@ -168,6 +168,51 @@ section {
     color: #FFFFFF;
     transition: all .42s ease;
 }
+@media (max-width: 890px) {
+    header {
+        padding: 20px 3%;
+        transition: .4s;
+    }
+}
+@media (max-width: 630px) {
+    .main-text h1 {
+        font-size: 10px;
+        transition: .4s;
+    }
+    .main-text p {
+        font-size: 18px;
+        transition: .4s;
+    }
+    .main-btn {
+        padding: 10px 20px;
+        transition: .4s;
+    }
+}
+@media (max-width: 750px) {
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 130vh;
+        background: #FDF0D1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 100px 30px;
+        transition: all 0.42s;
+        border-top-left-radius: 12px;
+    }
+    .nav-menu a {
+        display: block;
+        margin: 20px auto;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .nav-menu.open {
+        right: 0;
+    }
+}
 body {
     background: var(--background-body);
     height: 300vh;
