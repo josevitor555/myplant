@@ -213,6 +213,22 @@ section {
         right: 0;
     }
 }
+@media (max-width: 320px) {
+    header img {
+        width: 160px;
+    }
+    .main-text {
+        font-size: 20px;
+        margin-top: 30%;
+    }
+    .main-text h5 {
+        font-size: 16px;
+    }
+    .main-text p {
+        font-size: 10px;
+    }
+}
+
 body {
     background: var(--background-body);
     height: 300vh;
