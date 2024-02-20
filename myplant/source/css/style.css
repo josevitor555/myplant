@@ -124,7 +124,7 @@ section {
 }
 .main-home .main-text h1 {
     color: var(--color-text-banner);
-    font-size: 55px;
+    font-size: 48px;
     text-transform: capitalize;
     line-height: 1.1;
     font-weight: 600;
@@ -228,7 +228,6 @@ section {
         font-size: 10px;
     }
 }
-
 body {
     background: var(--background-body);
     height: 300vh;

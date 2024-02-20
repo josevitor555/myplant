@@ -1,0 +1,71 @@
+@media (max-width: 320px) {
+    .main-text {
+        font-size: 10px;
+    }
+}
+//////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./source/css/style.css">
+  <link rel="stylesheet" href="./source/css/root.css">
+  <link rel="website icon" href="./assets/image/plant.jpg">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <title>MyPlant</title>
+</head>
+<body>
+  <div id="progressbar"></div>
+  <header>
+    <a href="#logo" class="logo">
+      <img src="./assets/image/logo-myplant.png" alt="Image logo not found">
+    </a>
+    <nav class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#myplant">My Plants</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#chat">Chat</a></li>
+    </nav>
+    <div class="nav-icon">
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <a href="#user"><i class='bx bx-user'></i></a>
+      <a href="#mycart">
+        <i class="bx bx-cart icon-cart">
+          <span>0</span>
+        </i>
+      </a>
+    </div>
+  </header>
+  <section class="main-home">
+    <div class="main-text">
+      <h5>Welcome to the MyPlant!</h5>
+      <h1>New Plants <br> Collection in 2024!</h1>
+      <p>MyPlants for Your Plants!</p>
+      <a href="#signin" class="main-btn">
+        Sign In
+        <i class="bx bx-right-arrow-alt"></i>
+      </a>
+    </div>
+    <div class="down-arrow">
+      <a href="#trending-plants" class="down"><i class='bx bx-chevrons-down'></i></a>
+    </div>
+  </section>
+  <section class="product-area">
+
+  </section>
+  <footer>
+
+  </footer>
+  <script src="./source/js/progressbar.js"></script>
+  <script src="./source/js/header.js"></script>
+  <script src="./source/js/openmenu.js"></script>
+  <script type="module" src="./source/js/animationBanner.js"></script>
+</body>
+</html>
+////////////////////////////////////////////////////////////////////
+Quero deixar responsivo para 320px os elementos de .main-text do .main-home.
