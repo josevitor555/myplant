@@ -181,6 +181,11 @@ section {
 .product-area .center-title span {
     color: #416D19;
 }
+.product-area .container-plants {
+    width: 100%;
+    height: 100vh;
+    background: red;
+}
 @media (max-width: 890px) {
     header {
         padding: 20px 3%;
@@ -212,7 +217,7 @@ section {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 100px 30px;
+        padding: 40px 30px;
         transition: all 0.42s;
         border-top-left-radius: 12px;
     }
@@ -239,6 +244,32 @@ section {
     }
     .main-text p {
         font-size: 10px;
+    }
+    .center-title h1 {
+        font-size: 18px;
+    }
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 130vh;
+        background: #FDF0D1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 30px;
+        transition: all 0.42s;
+        border-top-left-radius: 12px;
+    }
+    .nav-menu a {
+        display: block;
+        margin: 20px auto;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .nav-menu.open {
+        right: 0;
     }
 }
 body {
