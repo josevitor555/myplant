@@ -185,6 +185,9 @@ section {
     width: 100%;
     height: 100vh;
     background: red;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 1.5;
+    overflow: auto;
 }
 @media (max-width: 890px) {
     header {

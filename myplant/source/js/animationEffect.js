@@ -10,7 +10,7 @@ function addAnimationClass() {
     });
 
     animationForCenterTitle.forEach(titleAnimation => {
-        titleAnimation.classList.add('animate__animated', 'animate__bounceInLeft');
+        titleAnimation.classList.add('animate__animated', 'animate__fadeIn');
     });
 }
 
